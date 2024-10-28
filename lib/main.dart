@@ -74,7 +74,7 @@ void main() {
           ),
           bodyLarge: TextStyle(
             fontSize: 18,
-            fontWeight: FontWeight.bold,
+            fontWeight: FontWeight.normal,
             color: kColorScheme.onSecondaryContainer
           ),
           bodyMedium: TextStyle(

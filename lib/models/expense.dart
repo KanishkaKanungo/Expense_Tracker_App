@@ -37,7 +37,7 @@ class ExpenseCategory {
   ExpenseCategory.category(this.category, List<Expense> allCategories)
       : chartList =
             allCategories.where((expense) => expense.category == category).toList();
-    double get totalSum{
+    double get totalExpense{
       double sum = 0;
 
       for(final expense in chartList){
